@@ -10,8 +10,8 @@
 ## Hints
 
 ```
-ng generate feature media --m book.module.ts --group --api
-ng generate store media -m book.module.ts
+ng generate feature book --m book.module.ts --group --api
+ng generate store book -m book.module.ts
 ```
 
 ```js
