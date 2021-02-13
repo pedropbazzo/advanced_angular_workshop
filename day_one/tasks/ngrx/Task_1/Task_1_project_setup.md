@@ -9,13 +9,13 @@
 
 Starting the Backend
 
-![img.png](../assets/img.png):
+![img.png](../../assets/img.png):
 
 Swagger-Documentation:
 
 `http://localhost:4730/`
 
-![img_1.png](../assets/img_1.png)
+![img_1.png](../../assets/img_1.png)
 
 ## Install dependencies inside book-app-ngrx root directory
 
