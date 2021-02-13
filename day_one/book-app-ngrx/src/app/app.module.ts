@@ -9,19 +9,25 @@ import { environment } from '../environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { reducers, metaReducers } from './reducers';
 import {BookModule} from './book/book.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderComponent } from './header/header.component';
+import {AppUiModule} from './app-ui.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AppUiModule,
     StoreDevtoolsModule.instrument({ maxAge: 25 }),
     EffectsModule.forRoot([]),
     StoreModule.forRoot(reducers, { metaReducers }),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
-    BookModule
+    BookModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
