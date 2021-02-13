@@ -3,7 +3,8 @@
 2. Default State of book should look like:
     ```
         books: [],
-        loading: false
+        loading: false,
+        error: false,
     ```
 3. Make sure your state is initialized correctly by checking ReduxDevTools in Chrome
 
@@ -15,7 +16,7 @@ ng generate store book -m book.module.ts
 ```
 
 ```js
-// book/reducres/index.ts
+// book/reducers/index.ts
 
 export const bookFeatureKey = 'book';
 
