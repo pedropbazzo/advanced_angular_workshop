@@ -15,7 +15,10 @@
 
 ## Angular Testing
 
-- Workshop-Slides
+- [Workshop-Slides](https://bit.ly/3piRYli)
+- [Cypress Best Practices](https://docs.cypress.io/guides/references/best-practices.html)
+- [Jasmine Documentation](https://jasmine.github.io/)
+- [Karma Test Runner](https://karma-runner.github.io/latest/index.html)
 
 ## Angular Enterprise Architecture
 
