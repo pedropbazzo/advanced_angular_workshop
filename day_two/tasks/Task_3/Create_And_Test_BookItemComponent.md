@@ -1,4 +1,4 @@
-# Create BookItemComponent and Test the BookListcomponent
+# Create BookItemComponent and Test the BookListComponent
 
 1. Create a `BookItemComponent` which get a book via Input Decorator and use it as a child component inside the `BookListComponent`
 2. To test the `BookListComponent` you need to create a mock/ stub for `BookItemComponent` and for `BookDataService`.

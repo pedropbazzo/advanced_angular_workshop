@@ -1,3 +1,5 @@
-<mat-list role="list" *ngIf="books$ | async as books">
-    <mat-list-item  *ngFor="let bookItem of books"  role="listitem"> {{ bookItem.title }}</mat-list-item>
-</mat-list>
+<h3>I get the books from BookDataService </h3>
+
+<ol *ngIf="books$ | async as books">
+    <li  *ngFor="let bookItem of books"  role="listitem"> {{ bookItem.title }}</li>
+</ol>

@@ -1,0 +1,5 @@
+<h3> I get the books from the Store &hearts; </h3>
+
+<ol *ngIf="books$ | async as books">
+    <li *ngFor="let bookItem of books" role="listitem"> {{ bookItem.title }}</li>
+</ol>

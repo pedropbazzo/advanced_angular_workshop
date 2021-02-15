@@ -1,2 +1,10 @@
 <app-header></app-header>
-<router-outlet></router-outlet>
+<mat-tab-group>
+    <mat-tab label="Services">
+        <app-book-list></app-book-list>
+    </mat-tab>
+    <mat-tab label="Redux">
+        <app-book-list-redux></app-book-list-redux>
+    </mat-tab>
+</mat-tab-group>
+

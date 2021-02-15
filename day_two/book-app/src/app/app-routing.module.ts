@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BookListComponent } from './media/components/book-list/book-list.component';
+import { BookListReduxComponent } from './media/components/book-list-redux/book-list-redux.component';
 
 const routes: Routes = [
   {
@@ -10,7 +10,7 @@ const routes: Routes = [
   },
   {
     path: 'books',
-    component: BookListComponent
+    component: BookListReduxComponent
   }
 ];
 
