@@ -13,16 +13,13 @@
 - [NgRx Guide](https://ngrx.io/)
 - [Chrome Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/)
 
-## StoryBook
-
-
 ## Angular Testing
 
-- [Workshop-Slides](http://bit.ly/3piRYli)
+- Workshop-Slides
 
 ## Angular Enterprise Architecture
 
-- [Workshop-Slides](http://bit.ly/3b6tjeX)
+- Workshop-Slides
 
 ## Angular
 
