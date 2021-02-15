@@ -3,6 +3,7 @@ import {Book} from '../models/book';
 import {Observable} from 'rxjs';
 import {HttpClient} from '@angular/common/http';
 import {environment} from '../../../environments/environment';
+import {shareReplay} from "rxjs/operators";
 
 @Injectable({
     providedIn: 'root',
