@@ -1,6 +1,6 @@
-import {createAction, props} from '@ngrx/store';
-import {Book} from "../models/book";
-import {HttpErrorResponse} from "@angular/common/http";
+import { createAction, props } from '@ngrx/store';
+import { Book } from "../models/book";
+import { HttpErrorResponse } from "@angular/common/http";
 
 export const loadBooks = createAction(
     '[Book] Load Books'

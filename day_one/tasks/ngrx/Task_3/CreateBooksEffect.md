@@ -42,7 +42,7 @@ After each action the state should look like this:
 ## Hints
 
 ```js
-// books/selectors/book-selectors.ts
+// books/selectors/media-selectors.ts
 
 export const getBooks = createSelector(
         selectBooks,
@@ -51,7 +51,7 @@ export const getBooks = createSelector(
 ```
 
 ```js
-// books/selectors/book-actions.ts
+// books/selectors/media-actions.ts
 
 export const loadBooksSuccess = createAction(
   '[Book] Load Books Success',

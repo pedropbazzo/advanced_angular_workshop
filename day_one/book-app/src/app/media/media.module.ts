@@ -1,7 +1,7 @@
-import {NgModule} from '@angular/core';
-import {CommonModule} from '@angular/common';
-import {BookListComponent} from './components/book-list/book-list.component';
-import {AppUiModule} from '../app-ui.module';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { BookListComponent } from './components/book-list/book-list.component';
+import { AppUiModule } from '../app-ui.module';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { BookEffects } from './effects/book.effects';
@@ -17,5 +17,5 @@ import * as fromMedia from './reducers';
     ],
     exports: [BookListComponent]
 })
-export class BookModule {
+export class MediaModule {
 }

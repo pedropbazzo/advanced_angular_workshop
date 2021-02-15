@@ -1,9 +1,9 @@
 import * as fromBook from '../reducers/book.reducer';
-import { selectBookState } from './book.selectors';
+import { selectMediaState } from './book.selectors';
 
 describe('Book Selectors', () => {
   it('should select the feature state', () => {
-    const result = selectBookState({
+    const result = selectMediaState({
       [fromBook.bookFeatureKey]: {}
     });
 

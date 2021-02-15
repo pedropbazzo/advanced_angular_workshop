@@ -1,5 +1,5 @@
-import {Injectable} from '@angular/core';
-import {BehaviorSubject, ReplaySubject, Subject} from "rxjs";
+import { Injectable } from '@angular/core';
+import { ReplaySubject } from "rxjs";
 
 @Injectable({
     providedIn: 'root'

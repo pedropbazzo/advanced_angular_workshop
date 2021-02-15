@@ -16,9 +16,9 @@ ng generate store book -m book.module.ts
 ```
 
 ```js
-// book/reducers/index.ts
+// media/reducers/index.ts
 
-export const bookFeatureKey = 'book';
+export const bookFeatureKey = 'media';
 
 export interface State {
     books: fromBook.State;
