@@ -22,7 +22,7 @@
 
 ## Angular Enterprise Architecture
 
-- [Workshop-Slides[(https://bit.ly/3b6tjeX)
+- [Workshop-Slides](https://bit.ly/3b6tjeX)
 - [Nrwl/Nx](https://nx.dev/latest/angular/getting-started/getting-started)
 
 ## Angular
