@@ -1,4 +1,4 @@
-# Make yourself comfortable with Karma
+# Make yourself comfortable with Karma 
 
 1. Run all tests with `ng test`.
 2. Figure out your test-coverage by adding the option `--code-coverage`.
